@@ -74,7 +74,7 @@ export default function TableHeader(props){
                 <button className="btn btn-primary buttons-pdf"
                   tabIndex="0"
                   aria-controls="configuration_tbl"
-                  title="Export to PDF"
+                  title="Export to PDF or Print"
                   style={style.table_tool_btn}
                   onClick={props.exportToPDF}>
                   <span>
